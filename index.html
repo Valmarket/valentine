@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>open pls</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background: #0b0b0b;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      margin: 0;
+    }
+    .box {
+      max-width: 320px;
+    }
+    .fake-link {
+      color: #4da3ff;
+      text-decoration: underline;
+      cursor: pointer;
+      margin-bottom: 20px;
+      display: inline-block;
+    }
+    .heart {
+      font-size: 60px;
+      animation: beat 1s infinite;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 20px;
+      background: #ff2f92;
+      color: white;
+      font-size: 16px;
+    }
+    @keyframes beat {
+      50% { transform: scale(1.2); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="fake-link">open this scam link :)</div>
+    <h1>Will You Be My Valentine?</h1>
+    <div class="heart">💖</div>
+    <button onclick="reply()">Yes</button>
+  </div>
+
+  <script>
+    function reply() {
+      alert("I knew you'd click 😌💘");
+    }
+  </script>
+</body>
+</html>
